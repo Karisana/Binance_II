@@ -2,6 +2,7 @@
 
 live_data.py  -  собирает данные по нужной валюте в sql
 
+
 live_tranding.py - работает по сценарию и сообщает о нужной покупке / продаже.
 
 Сценарий: 
@@ -12,7 +13,7 @@ live_tranding.py - работает по сценарию и сообщает о
 apikey, secret из api (если вставлять свои, то прятать через dvenv) 
 
 модули:
--- > sqlalchemy<2.0
+-- > sqlalchemy < 2.0
 -- > pandas
 -- > binance
 -- > asyncio
